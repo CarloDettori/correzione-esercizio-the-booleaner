@@ -3,11 +3,12 @@
 /*colori*/
 /*
 
-#4DA1FF
-#
-#
-#
-rgb(130, 170, 255) light blue
+#4DA1FF HEADER
+#878888 GREY
+#1AAAE6 BLUE
+#B2E6F2 LIGHT BLUE
+#FFFF00 HIGLIGHT
+
 
 */
 
@@ -20,7 +21,7 @@ body {
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-style: normal;
-    }
+        }
 }
 
 /*FONT*/
@@ -36,8 +37,13 @@ body {
     font-style: italic;
 }
 
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
 /*TESTO*/
-.text.small{
+.text-small{
     font-size: 0.8em
 }
 
@@ -45,7 +51,7 @@ body {
     color: #ffffff;
 }
 .text-grey {
-    color: gray;
+    color: #878888;
 }
 
 .text-blue {
@@ -55,17 +61,20 @@ body {
 /*backgrownd*/
 
 .bg-highlight {
-    background-color: yellow;
+    background-color: #FFFF00;
 }
 
 .bg-blue {
-    background-color: rgb(52, 73, 255);
+    background-color: #1AAAE6;
 }
 
 .bg-lightblue {
-    background-color: rgb(130, 170, 255);
+    background-color: #B2E6F2;
 }
-
+/*dimension*/
+.w-50 {
+    width: 50%;
+}
 
 /*header*/
 
@@ -76,4 +85,26 @@ header {
 
 .logo img {
     width: 200px;
+}
+
+/*main*/
+
+h1 {
+    font-size: 3em;
+}
+.table {
+    border-collapse: collapse;
+}
+
+.inner-footer div {
+    color: white;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+}
+
+#monitor {
+    background-image: url(../img/monitor.jpg);
 }
