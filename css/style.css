@@ -1,0 +1,79 @@
+/* correzione esercizio */
+
+/*colori*/
+/*
+
+#4DA1FF
+#
+#
+#
+rgb(130, 170, 255) light blue
+
+*/
+
+/*general*/
+
+
+
+body {
+     .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+/*FONT*/
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/*TESTO*/
+.text.small{
+    font-size: 0.8em
+}
+
+.text-white {
+    color: #ffffff;
+}
+.text-grey {
+    color: gray;
+}
+
+.text-blue {
+    color: blue;
+}
+
+/*backgrownd*/
+
+.bg-highlight {
+    background-color: yellow;
+}
+
+.bg-blue {
+    background-color: rgb(52, 73, 255);
+}
+
+.bg-lightblue {
+    background-color: rgb(130, 170, 255);
+}
+
+
+/*header*/
+
+header {
+    background: rgb(130, 170, 255) url(..\img\logo.svg);
+    background-size: 30%;
+}
+
+.logo img {
+    width: 200px;
+}
